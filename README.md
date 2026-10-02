@@ -19,7 +19,3 @@ This project demonstrates the transition from raw geospatial raster data to a ta
 * **Explainability (SHAP):** The Random Forest model independently identified July thermal stress (approximately 297.5 K / 24.4°C) as the critical threshold for yield collapse, aligning with known agronomic limits for corn pollination.
 * **Spatial Diagnostics:** Residual error mapping confirmed the model generalizes well geographically without heavy spatial clustering of errors.
 
-## Repository Structure
-* `/notebooks`: Numbered Google Colab notebooks (00 to 04) detailing the pipeline from Earth Engine extraction to ML evaluation.
-* `/results/figures`: SHAP beeswarm plots, forecast progression curves, and spatial error maps.
-* `data_dictionary.csv`: Definitions and units for all engineered features.
