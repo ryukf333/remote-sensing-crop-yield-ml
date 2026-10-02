@@ -16,7 +16,7 @@ This project demonstrates the transition from raw geospatial raster data to a ta
   * June 30 (Vegetative): RMSE 11.60 bu/ac
   * July 31 (Peak Pollination): RMSE 10.84 bu/ac
   * August 31 (Maturation): RMSE 10.72 bu/ac | R² = 0.689
-* **Explainability (SHAP):** The Random Forest model independently identified July thermal stress (~297.5 K / 24.4°C) as the critical threshold for yield collapse, aligning with known agronomic limits for corn pollination.
+* **Explainability (SHAP):** The Random Forest model independently identified July thermal stress (approximately 297.5 K / 24.4°C) as the critical threshold for yield collapse, aligning with known agronomic limits for corn pollination.
 * **Spatial Diagnostics:** Residual error mapping confirmed the model generalizes well geographically without heavy spatial clustering of errors.
 
 ## Repository Structure
