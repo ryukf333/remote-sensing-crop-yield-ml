@@ -1,0 +1,55 @@
+# ===================================================
+# Remote-Sensing Crop Yield Project .gitignore
+# ===================================================
+
+# 1. Project Datasets & Geospatial Files
+# Ignore all CSVs (large tables) and geospatial rasters
+*.csv
+*.tif
+*.tiff
+*.nc
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Exception: Force Git to track the Data Dictionary
+!data_dictionary.csv
+
+# 2. Machine Learning Models
+# Ignore serialized Random Forest models or XGBoost weights
+*.pkl
+*.joblib
+*.h5
+*.model
+models/*
+!models/.keep
+
+# 3. Jupyter Notebooks & Google Colab
+# Ignore temporary checkpoint files created by Colab/Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 4. Python Environment & Caches
+# Standard Python ignores for clean repositories
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# 5. Virtual Environments & Secrets
+# NEVER commit Google Earth Engine credentials or environment keys
+.env
+.venv
+venv/
+env/
+.earthengine/
+
+# 6. OS Generated System Files
+.DS_Store
+Thumbs.db
