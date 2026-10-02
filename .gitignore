@@ -1,6 +1,4 @@
-# ===================================================
-# Remote-Sensing Crop Yield Project .gitignore
-# ===================================================
+
 
 # 1. Project Datasets & Geospatial Files
 # Ignore all CSVs (large tables) and geospatial rasters
