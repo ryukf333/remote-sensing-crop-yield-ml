@@ -1,7 +1,7 @@
 # Remote-Sensing and Machine-Learning Crop Yield Prediction
 
 ## Overview
-This repository contains a research-grade machine learning pipeline for pre-harvest corn yield forecasting across Iowa's 99 counties (2019–2024)[cite: 1]. By integrating satellite remote sensing and global climate reanalysis, the pipeline predicts yield anomalies (deviations from historical county baselines) to establish an interpretable, biophysically grounded forecasting model[cite: 1].
+A machine learning pipeline designed to forecast pre-harvest corn yields across Iowa's 99 counties (2019–2024). By integrating satellite remote sensing and global climate reanalysis, this project predicts yield anomalies to establish a highly interpretable, biophysically grounded agricultural forecasting model.
 
 ## Features
 * **Multimodal Data Fusion:** Combines Sentinel-2 surface reflectance (NDVI, NDWI, NDRE) with ERA5-Land climate data (temperature, precipitation, soil water).
